@@ -1,0 +1,52 @@
+/* nav.css */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #BED1CF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a bottom shadow */
+    position: sticky;
+    top: 0;
+}
+
+.logo h1 {
+    background-color: yellow;
+    max-height: 50px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(0, 94, 255);
+    font-family: sans-serif;
+    padding: 0.5rem 1rem; /* Add padding */
+    border-radius: 5px; /* Add rounded borders */
+    transition: background-color 0.3s ease;
+}
+
+.nav-links a.active {
+    background-color: #40679E;
+    color: white;
+}
+
+.nav-links a:hover {
+    background-color: #40679E; /* Change the background color on hover */
+    color: white; /* Change text color on hover */
+}

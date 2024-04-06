@@ -1,0 +1,218 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: #BED1CF;
+    height: 100vh;
+    /* display: grid;
+    place-items: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+form{
+    background-color:#E9F6FF;
+    display: flex;
+    flex-direction: column;
+    gap:2em;
+    max-width: 600px;
+    width: 100%;
+    height: 70%;
+    margin: auto;
+    padding: 8rem 4rem;
+
+
+    
+}
+
+.head{
+    color: rgb(0, 94, 255);
+    padding: 1rem;
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+
+
+}
+input{
+    padding: 1rem;
+    outline:none;
+    border: 1px solid rgb(240, 240, 52);
+    border-radius: 5px;
+}
+
+button{
+    background-color: rgb(106, 0, 255);
+    border-radius: 5px;
+    width: 12rem;
+    color: white;
+    border: none;
+    align-self: center;
+    font: 500 1rem sans-serif;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    
+
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #BED1CF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* this will add shadow in the bottom */
+    position: sticky;
+    top: 0;
+}
+
+.logo img {
+    max-height: 50px; 
+
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 1rem;
+}
+
+/* .nav-links a {
+    text-decoration: none;
+    color: rgb(0, 94, 255);
+    font-family: sans-serif;
+} */
+.nav-links a {
+    text-decoration: none;
+    color: rgb(0, 94, 255);
+    font-family: sans-serif;
+    padding: 0.5rem 1rem; /* Add padding */
+    border-radius: 5px; /* Add rounded borders */
+    transition: background-color 0.3s ease; /
+}
+
+.nav-links a:hover {
+    background-color: #40679E; /* Change the background color on hover */
+    color: white; /* Change text color on hover */
+}
+
+
+/* cards css starts from here */
+
+.cards {
+    background-image: url(img/img3.jpg);
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    height: 260px;
+    width: 200px;
+    
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+
+}
+/* Define the size of the images inside the cards */
+.img img {
+    width: 100%; /* Set the width to 100% of the parent container */
+    height: auto; /* Automatically calculate the height to maintain aspect ratio */
+}
+
+
+.card:hover {
+    transform: scale(1.05); 
+}
+
+/* cards button css */
+.card_button{
+    background-color: rgb(106, 0, 255);
+    border-radius: 5px;
+    width: 10rem;
+    color: white;
+    border: none;
+    align-self: center;
+    font: 500 1rem sans-serif;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+
+/* Footer Styles  */
+.footer {
+    background-color: #40679E;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+
+
+/* our mission section css */
+
+
+
+    .mission_donation {
+        padding: 50px 0;
+        background-color: #f9f9f9;
+        text-align: center;
+    }
+
+    .mission_donation .para {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .mission_donation h1 {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        color: #333;
+        text-transform: uppercase;
+    }
+
+    .mission_donation .mission p {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        color: #555;
+        margin-bottom: 30px;
+    }
+
+    .mission_donation .mission p:last-child {
+        margin-bottom: 0;
+    }
+
+    .mission_donation .mission p::first-letter {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #4caf50;
+    }
+
+
+
+

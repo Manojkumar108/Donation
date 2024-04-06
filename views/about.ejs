@@ -1,0 +1,43 @@
+<!-- aboutUs.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    
+</head>
+<body>
+
+<%- include('navbar'); %> 
+
+<main class="container">
+    <section class="mission">
+        <h2>Our Mission</h2>
+        <p>At Threads of Hope, our mission is to collect donations of old clothes, footwear, and toys from generous donors and distribute them to those in need. We believe in the power of community and compassion to make a positive impact on the lives of others.</p>
+    </section>
+
+    <section class="process">
+        <h2>Our Process</h2>
+        <p>Our process is simple yet effective:</p>
+        <ol>
+            <li>Donation Collection: We collect donations of old clothes, footwear, and toys from donors in the community. Donors can drop off their items at our collection centers or arrange for a pickup.</li>
+            <li>Sorting and Quality Check: Once donations are received, our team sorts through them to ensure they are in good condition and meet our quality standards. Damaged or unusable items are responsibly recycled or disposed of.</li>
+            <li>Distribution to Needy Individuals and Families: The donated items are distributed to individuals and families in need through partnerships with local shelters, community organizations, and outreach programs.</li>
+            <li>Impact Monitoring: We monitor the impact of our donations and track how they improve the lives of those we serve. Feedback from recipients helps us continuously improve our programs and services.</li>
+        </ol>
+    </section>
+
+    <section class="call-to-action">
+        <h2>Get Involved</h2>
+        <p>Join us in making a difference! You can contribute by donating your gently used clothes, footwear, and toys, or by volunteering your time to help with donation drives and distribution events.</p>
+        <a href="/donate" class="btn">Donate Now</a>
+    </section>
+</main>
+
+<%- include('footer'); %> <!-- Include your footer -->
+
+</body>
+</html>
